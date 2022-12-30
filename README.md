@@ -10,16 +10,17 @@ Model development to predict likely degradation rates at each base of an RNA mol
 
 Researchers have observed that RNA molecules have the tendency to spontaneously degrade. This is a serious limitation--a single cut can render the mRNA vaccine useless. Currently, little is known on the details of where in the backbone of a given RNA is most prone to being affected. Without this knowledge, current mRNA vaccines against COVID-19 must be prepared and shipped under intense refrigeration, and are unlikely to reach more than a tiny fraction of human beings on the planet unless they can be stabilized.
 
+<img height="500" src="https://github.com/daniocionini/mRNA-covid-vaccine-degradation-prediction/blob/main/banner%20(2).png"/>
+
 ## Project Objective
 Develop a model to predict likely degradation rates at each base of an RNA molecule, trained on a subset of an Eterna dataset comprising over 3000 RNA molecules (which span a panoply of sequences and structures) and their degradation rates at each position.
 
 ## References
 ### Data Used
-The data comes from the **National 2009 H1N1 Flu Survey (NHFS)**.
+A subset of an Eterna dataset comprising over 3000 RNA molecules. <a href="https://eternagame.org/" target="_blank">eternagame.org</a>
 
->The National 2009 H1N1 Flu Survey (NHFS) was sponsored by the National Center for Immunization and Respiratory Diseases (NCIRD) and conducted jointly by NCIRD and the National Center for Health Statistics (NCHS), Centers for Disease Control and Prevention (CDC). The NHFS was a list-assisted random-digit-dialing telephone survey of households, designed to monitor influenza immunization coverage in the 2009-10 season.<br>
-<br>The target population for the NHFS was all persons 6 months or older living in the United States at the time of the interview. Data from the NHFS were used to produce timely estimates of vaccination coverage rates for both the monovalent pH1N1 and trivalent seasonal influenza vaccines.
-<a href="https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/nis/nhfs/nhfspuf_readme.txt">National 2009 H1N1 Flu Survey Public-Use Data File Readme</a>
+### Author
+Bojan Tunguz, Christian Choe, Do Soon Kim, H Wayment-Steele, inversion, Rhiju Das
 
 ## Technologies Used
 - Python
@@ -34,7 +35,7 @@ The data comes from the **National 2009 H1N1 Flu Survey (NHFS)**.
 Use the <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository">tutorial</a> provided.<br>
 
 ### Raw Data
-The datasets can be found <a href="https://www.drivendata.org/competitions/66/flu-shot-learning/page/210/">here</a>
+The datasets can be found <a href="https://www.kaggle.com/competitions/stanford-covid-vaccine/data">here</a>
 
 
-![alt text](https://media0.giphy.com/media/LaVp0AyqR5bGsC5Cbm/giphy.gif?cid=790b761127b602110641413a4158b121329f65abb5979c7b&rid=giphy.gif&ct=g)
+![alt text](https://media2.giphy.com/media/uHV4veFjX22Pu/giphy.gif?cid=ecf05e47cuioo1kvu9ix5i1d9wmn5rbpudz7vrnenaruighs&rid=giphy.gif&ct=g)
