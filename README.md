@@ -1,5 +1,5 @@
 # Covid-19 mRNA Vaccine Degradation Prediction
-Model deployment to predict likely degradation rates at each base of an RNA molecule
+Model deployment to predict likely degradation rates at each base of an RNA molecule.
 
 *As part of a competition on <a href="https://www.kaggle.com/">Kaggle.</a>*<br>
 
