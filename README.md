@@ -3,16 +3,15 @@ Model development to predict likely degradation rates at each base of an RNA mol
 
 *As part of a competition on <a href="https://www.kaggle.com/">Kaggle.</a>*<br>
 
-<img height="500" src="https://drivendata-public-assets.s3.amazonaws.com/flu-vaccine.jpg"/>
+<img height="500" src="https://github.com/daniocionini/mRNA-covid-vaccine-degradation-prediction/blob/main/coronavirus-curevac-rna-cepi.jpg"/>
 
 ## Project Overview
-**Vaccines** provide immunization for individuals, and enough immunization in a community can further reduce the spread of diseases through *"herd immunity."*<br>
-In the beginning in spring 2009, a pandemic caused by the H1N1 influenza virus, colloquially named "swine flu," swept across the world. Researchers estimate that in the first year, it was responsible for between 151,000 to 575,000 deaths globally.<br>
+**mRNA vaccines** have taken the lead as the fastest vaccine candidates for COVID-19, but currently, they face key potential limitations. One of the biggest challenges right now is how to design super stable messenger RNA molecules (mRNA). Conventional vaccines (like your seasonal flu shots) are packaged in disposable syringes and shipped under refrigeration around the world, but that is not currently possible for mRNA vaccines.
 
-A vaccine for the H1N1 flu virus became publicly available in October 2009. In late 2009 and early 2010, the United States conducted the National 2009 H1N1 Flu Survey. A phone survey was conducted asking respondents whether they had received the H1N1 and seasonal flu vaccines, in conjunction with questions about themselves. These additional questions covered their social, economic, and demographic background, opinions on risks of illness and vaccine effectiveness, and behaviors towards mitigating transmission. A better understanding of how these characteristics are associated with personal vaccination patterns can provide guidance for future public health efforts.
+Researchers have observed that RNA molecules have the tendency to spontaneously degrade. This is a serious limitation--a single cut can render the mRNA vaccine useless. Currently, little is known on the details of where in the backbone of a given RNA is most prone to being affected. Without this knowledge, current mRNA vaccines against COVID-19 must be prepared and shipped under intense refrigeration, and are unlikely to reach more than a tiny fraction of human beings on the planet unless they can be stabilized.
 
 ## Project Objective
-Analysing available data to create a machine learning model that generates predictions about wether a patient is likely to get H1N1 or seasonal flu vaccine, or both.
+Develop a model to predict likely degradation rates at each base of an RNA molecule, trained on a subset of an Eterna dataset comprising over 3000 RNA molecules (which span a panoply of sequences and structures) and their degradation rates at each position.
 
 ## References
 ### Data Used
