@@ -10,7 +10,7 @@ Model development to predict likely degradation rates at each base of an RNA mol
 
 Researchers have observed that RNA molecules have the tendency to spontaneously degrade. This is a serious limitation--a single cut can render the mRNA vaccine useless. Currently, little is known on the details of where in the backbone of a given RNA is most prone to being affected. Without this knowledge, current mRNA vaccines against COVID-19 must be prepared and shipped under intense refrigeration, and are unlikely to reach more than a tiny fraction of human beings on the planet unless they can be stabilized.
 
-<img height="500" src="https://github.com/daniocionini/mRNA-covid-vaccine-degradation-prediction/blob/main/banner%20(2).png"/>
+<img height="300" src="https://github.com/daniocionini/mRNA-covid-vaccine-degradation-prediction/blob/main/banner%20(2).png"/>
 
 ## Project Objective
 Develop a model to predict likely degradation rates at each base of an RNA molecule, trained on a subset of an Eterna dataset comprising over 3000 RNA molecules (which span a panoply of sequences and structures) and their degradation rates at each position.
